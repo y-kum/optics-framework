@@ -37,7 +37,7 @@ CONFIG = {
         {"llm_vision": {"enabled": True, "url": None, "capabilities": {
             "provider": "gemini",
             "model":    "gemini-2.5-flash",
-            "api_key":  "AIzaSyB_brTQNXKNbuAtz5XMMsRfh-vqfnrT6SU",
+            "api_key":  os.environ["GEMINI_API_KEY"],
         }}}
     ],
     "image_detection": [{"templatematch": {"enabled": False, "url": None, "capabilities": {}}}],
