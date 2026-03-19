@@ -109,6 +109,12 @@ optics.action_keyword.press_keycode("Enter")
 
 See [`test_run_llm_driver.py`](../test_run_llm_driver.py) for a full working example.
 
+### Running the example
+
+```bash
+poetry run python test_run_llm_driver.py
+```
+
 ---
 
 ## How it works
